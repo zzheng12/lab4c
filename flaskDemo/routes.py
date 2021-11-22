@@ -159,3 +159,4 @@ def delete_dept(dnumber):
     db.session.commit()
     flash('The department has been deleted!', 'success')
     return redirect(url_for('home'))
+111
